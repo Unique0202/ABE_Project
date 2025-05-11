@@ -1,0 +1,134 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 16px 0;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: var(--light-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--light-color);
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo span {
+  color: var(--secondary-color);
+  margin-right: 5px;
+}
+
+.scrolled .navbar-logo {
+  color: var(--primary-color);
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-item {
+  margin-left: 24px;
+}
+
+.navbar-link {
+  color: var(--light-color);
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.scrolled .navbar-link {
+  color: var(--gray-800);
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary-color);
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after,
+.navbar-link.active::after {
+  width: 100%;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+  color: var(--secondary-color);
+}
+
+.navbar-toggle {
+  display: none;
+  color: var(--light-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.scrolled .navbar-toggle {
+  color: var(--primary-color);
+}
+
+@media (max-width: 992px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--light-color);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    transform: translateY(-150%);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .navbar-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar-item {
+    margin: 15px 0;
+  }
+
+  .navbar-link {
+    color: var(--gray-800);
+  }
+
+  .navbar-link::after {
+    bottom: -3px;
+  }
+}

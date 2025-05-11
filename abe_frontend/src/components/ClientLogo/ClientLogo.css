@@ -1,0 +1,35 @@
+.client-logo {
+  background-color: var(--light-color);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.client-logo img {
+  max-width: 80%;
+  max-height: 80%;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.client-logo:hover img {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .client-logo {
+    height: 100px;
+  }
+}

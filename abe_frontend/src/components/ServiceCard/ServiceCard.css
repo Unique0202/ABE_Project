@@ -1,0 +1,70 @@
+.service-card {
+  background-color: var(--light-color);
+  border-radius: var(--border-radius-md);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: var(--spacing-3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 0;
+  background-color: var(--secondary-color);
+  transition: height 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover::before {
+  height: 100%;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-2);
+}
+
+.service-title {
+  margin-bottom: var(--spacing-1);
+  font-size: 1.25rem;
+}
+
+.service-description {
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-2);
+  flex-grow: 1;
+}
+
+.service-link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.service-link:hover {
+  color: var(--secondary-color);
+}
+
+.service-link:hover .arrow-icon {
+  transform: translateX(5px);
+}
