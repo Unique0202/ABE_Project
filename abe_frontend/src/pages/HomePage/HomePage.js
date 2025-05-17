@@ -97,7 +97,7 @@ const HomePage = () => {
   return (
     <>
       <Hero
-        title="Advanced Solutions for the Oil & Gas Industry"
+        title="Oil & Gas Industries of Erection, Commissioning & Calibration Solutions"
         subtitle="ABE Engineering delivers high-quality equipment, services, and solutions for the oil and gas industry worldwide."
         backgroundImage="https://media.licdn.com/dms/image/v2/D4E12AQHJCl0A6d4DXA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1660896625599?e=2147483647&v=beta&t=vbItAQYNP59qnyXeNDTmzUostpkeTjv25jkRom11aoY"
         buttonText="Discover Our Services"
