@@ -11,181 +11,152 @@ const EquipmentPage = () => {
       id: 1,
       category: 'mechanical equipment',
       name: 'Over Head Crane (EOT) - 10 MT',
-      image: 'https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      // image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 2,
       category: 'mechanical equipment',
-      name: 'CNC Profile Cutting Machine - Up to 25 MM Plasma & 150 MM in Oxy-Fuel',
-      image: 'https://images.pexels.com/photos/162568/oil-industry-smoke-air-pollution-162568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'CNC Profile Cutting Machine - Up to 25 MM Plasma & 150 MM in Oxy-Fuel'
     },
     {
       id: 3,
       category: 'mechanical equipment',
-      name: 'CNC Plate Rolling Machine - Up to 25 MM',
-      image: 'https://images.pexels.com/photos/2581861/pexels-photo-2581861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'CNC Plate Rolling Machine - Up to 25 MM'
     },
     {
       id: 4,
       category: 'mechanical equipment',
-      name: 'Air Compressor - 07 Kg/Cm2',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Air Compressor - 07 Kg/Cm2'
     },
     {
       id: 5,
       category: 'mechanical equipment',
-      name: 'Radial Drilling Machine Up to 50 MM',
-      image: 'https://images.pexels.com/photos/2965779/pexels-photo-2965779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Radial Drilling Machine Up to 50 MM'
     },
     {
       id: 6,
       category: 'mechanical equipment',
-      name: 'Magnetic Drill Machine Up to 13 MM',
-      image: 'https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Magnetic Drill Machine Up to 13 MM'
     },
     {
       id: 7,
       category: 'mechanical equipment',
-      name: 'PUG Cutting Machine - 70 MM',
-      image: 'https://images.pexels.com/photos/4599906/pexels-photo-4599906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'PUG Cutting Machine - 70 MM'
     },
     {
       id: 8,
       category: 'mechanical equipment',
-      name: 'Air less Spray Machine - 300 Micron',
-      image: 'https://images.pexels.com/photos/2965267/pexels-photo-2965267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Air less Spray Machine - 300 Micron'
     },
     {
       id: 9,
       category: 'mechanical equipment',
-      name: 'S A 1/2 Blasting Machine with Hopper 50-70 Micron',
-      image: 'https://images.pexels.com/photos/2965268/pexels-photo-2965268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'S A 1/2 Blasting Machine with Hopper 50-70 Micron'
     },
     {
       id: 10,
       category: 'mechanical equipment',
-      name: 'Hydra - 15 MT',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Hydra - 15 MT'
     },
     {
       id: 11,
       category: 'mechanical equipment',
-      name: 'Welding Rectifier - 400 & 600 Amps',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Welding Rectifier - 400 & 600 Amps'
     },
     {
       id: 12,
       category: 'mechanical equipment',
-      name: 'Welding Transformer - 400 Amps',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Welding Transformer - 400 Amps'
     },
     {
       id: 13,
       category: 'mechanical equipment',
-      name: 'MIG welding Machine - 400 Amps',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'MIG welding Machine - 400 Amps'
     },
     {
       id: 14,
       category: 'mechanical equipment',
-      name: 'Drilling Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Drilling Machine'
     },
     {
       id: 15,
       category: 'mechanical equipment',
-      name: 'Drilling Machine - Pillar Type',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Drilling Machine - Pillar Type'
     },
     {
       id: 16,
       category: 'mechanical equipment',
-      name: 'Hand Drill Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Hand Drill Machine'
     },
     {
       id: 17,
       category: 'mechanical equipment',
-      name: 'Bench Drill Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Bench Drill Machine'
     },
     {
       id: 18,
       category: 'mechanical equipment',
-      name: 'Flexible Grinding Machine ',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Flexible Grinding Machine '
     },
     {
       id: 19,
       category: 'mechanical equipment',
-      name: 'Angle Grinder - 4", 5" & 7"',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Angle Grinder - 4", 5" & 7"'
     },
     {
       id: 20,
       category: 'mechanical equipment',
-      name: 'Buffing Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Buffing Machine'
     },
     {
       id: 21,
       category: 'mechanical equipment',
-      name: 'Mis. Tools, Spares, Pipe Range etc.',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Mis. Tools, Spares, Pipe Range etc.'
     },
     {
       id: 22,
       category: 'mechanical equipment',
-      name: 'Test Bench',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Test Bench'
     },
     {
       id: 23,
       category: 'mechanical equipment',
-      name: 'Pipe Hydraulic Bending Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Pipe Hydraulic Bending Machine'
     },
     {
       id: 24,
       category: 'mechanical equipment',
-      name: 'Pipe Cutter',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Pipe Cutter'
     },
     {
       id: 25,
       category: 'mechanical equipment',
-      name: 'Hydro Testing Pump - Up to 700 Bar',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Hydro Testing Pump - Up to 700 Bar'
     },
     {
       id: 26,
       category: 'mechanical equipment',
-      name: 'Pipe Threading Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Pipe Threading Machine'
     },
     {
       id: 27,
       category: 'mechanical equipment',
-      name: 'Pipe Bending Machine',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Pipe Bending Machine'
     },
     {
       id: 28,
       category: 'flow instruments',
-      name: 'Flow Control Valve - 0 to 100 LPM',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Flow Control Valve - 0 to 100 LPM'
     },
     {
       id: 29,
       category: 'flow instruments',
-      name: 'Flow Regulator - 0 to 100 LPM',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Flow Regulator - 0 to 100 LPM'
     },
     {
       id: 30,
       category: 'flow instruments',
-      name: 'Flow Control Valve - 0 to 100 LPM',
-      image: 'https://images.pexels.com/photos/4491005/pexels-photo-4491005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      name: 'Flow Control Valve - 0 to 100 LPM'
     },
 
   ];
@@ -275,11 +246,11 @@ const EquipmentPage = () => {
           </div>
           
           {filteredEquipment.length > 0 ? (
-            <div className="equipment-grid grid-3">
+            <div className="equipment-grid ">
               {filteredEquipment.map(equipment => (
                 <EquipmentCard
                   key={equipment.id}
-                  image={equipment.image}
+                  // image={equipment.image}
                   name={equipment.name}
                 />
               ))}
