@@ -146,18 +146,128 @@ const EquipmentPage = () => {
     {
       id: 28,
       category: 'flow instruments',
-      name: 'Flow Control Valve - 0 to 100 LPM'
+      name: 'Flow Tarnsmitter'
     },
     {
       id: 29,
       category: 'flow instruments',
-      name: 'Flow Regulator - 0 to 100 LPM'
+      name: 'Flow Switch'
     },
     {
       id: 30,
-      category: 'flow instruments',
-      name: 'Flow Control Valve - 0 to 100 LPM'
+      category: 'level instruments',
+      name: 'Level troll (Single and Interface)'
     },
+    {
+      id: 31,
+      category: 'level instruments',
+      name: 'Level Transmitter (DP Type)'
+    },
+    {
+      id: 32,
+      category: 'temperature instruments',
+      name: 'Temperature Transmitter'
+    },
+    {
+      id: 33,
+      category: 'pressure instruments',
+      name: 'Vacuum Gauges'
+    },
+    {
+      id: 34,
+      category: 'pressure instruments',
+      name: 'Diaphragm Gauges'
+    },
+    {
+      id: 35,
+      category: 'pressure instruments',
+      name: 'Compound Gauges'
+    },
+    {
+      id: 36,
+      category: 'electrical instruments',
+      name: 'Stop Watch'
+    },
+    {
+      id: 37,
+      category: 'temperature instruments',
+      name: 'Temperature Recorder'
+    },
+    {
+      id: 38,
+      category: 'electrical instruments',
+      name: 'Timers'
+    },
+    {
+      id: 39,
+      category: 'electrical instruments',
+      name: 'Multimeters'
+    },
+    {
+      id: 40,
+      category: 'electrical instruments',
+      name: 'MV & mA Calibrator'
+    },
+    {
+      id: 41,
+      category: 'temperature instruments',
+      name: 'Temp. Guage, Temp. Switch'
+    },
+    {
+      id: 42,
+      category: 'temperature instruments',
+      name: 'RTD / Thermocouple, Glass Thermometer (five points)'
+    },
+    {
+      id: 43,
+      category: 'temperature instruments',
+      name: 'Temperature Indicator and Controller'
+    },
+    {
+      id: 44,
+      category: 'pressure instruments',
+      name: 'Diff. Pressure Gauge / loadgauge / Manometer'
+    },
+    {
+      id: 45,
+      category: 'pressure instruments',
+      name: 'Pressure Switch'
+    },
+    {
+      id: 46,
+      category: 'pressure instruments',
+      name: 'Pressure Recorder'
+    },
+    {
+      id: 47,
+      category: 'pressure instruments',
+      name: 'Pressure Transmitter'
+    },
+    {
+      id: 48,
+      category: 'pressure instruments',
+      name: 'I/P Converter'
+    },
+    {
+      id: 49,
+      category: 'pressure instruments',
+      name: 'Differential Pressure Transmitter'
+    },
+    {
+      id: 50,
+      category: 'pressure instruments',
+      name: 'Control Valve'
+    },
+    {
+      id: 51,
+      category: 'pressure instruments',
+      name: 'Glycerine Filled Gauge'
+    },
+    {
+      id: 52,
+      category: 'pressure instruments',
+      name: 'Level Transmitter'
+    }
 
   ];
 
