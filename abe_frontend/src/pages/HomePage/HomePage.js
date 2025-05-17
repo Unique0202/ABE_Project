@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaIndustry, FaTools, FaOilCan, FaWrench } from 'react-icons/fa';
+import { FaIndustry, FaTools, FaOilCan, FaWrench, FaCog, FaChartLine, FaShieldAlt, FaHandsHelping, FaArrowRight } from 'react-icons/fa';
 import Hero from '../../components/Hero/Hero';
 import SectionHeader from '../../components/SectionHeader/SectionHeader';
 import ServiceCard from '../../components/ServiceCard/ServiceCard';
@@ -9,43 +9,88 @@ import './HomePage.css';
 const HomePage = () => {
   const services = [
     {
-      icon: <FaIndustry />,
-      title: 'Industrial Equipment Supply',
-      description: 'We provide high-quality industrial equipment for oil and gas operations, including pumps, valves, and specialized machinery.'
-    },
-    {
-      icon: <FaTools />,
-      title: 'Maintenance Services',
-      description: 'Our skilled technicians offer comprehensive maintenance services to keep your equipment running at optimal efficiency.'
-    },
-    {
       icon: <FaOilCan />,
-      title: 'Oil & Gas Solutions',
-      description: 'Specialized solutions for upstream, midstream, and downstream oil and gas operations to maximize productivity.'
+      title: 'GAS/LIQUID FLOW METERING SYSTEMS',
+      description: 'We provide GAS/LIQUID Metering Systems with Design, Fabrication, Installation and Commissioning solutions for custody Transfer Flow Measurement in the world wide Oil & Gas Industry. Our team is trained and expert in various flow computers and meters like Emerson, Omni, Thermo-Fisher etc'
+    },
+    {
+      icon: <FaIndustry />,
+      title: 'INDUSTRIAL AUTOMATION',
+      description: 'We assure to execute any job with highly experienced team who has expertise on renowned industrial platform like Emerson, Mitsubishi, GE, Rockwell, Siemens and Schneider. Our team has 25+ man years of experience on SCADA, MES and IT applications makes sure that we understand Automation and IT business process and deliver the right solution to our customer.'
+    },
+    {
+      icon: <FaHandsHelping />,
+      title: 'MANPOWER SUPPLY',
+      description: 'We prrovide skilled and unskilled manpower on man-day basis for Instumentation & Electrical jobs, Chemical Engineering and Hydrocarbon Industries.'
     },
     {
       icon: <FaWrench />,
-      title: 'Custom Engineering',
-      description: 'Custom engineering services tailored to your specific needs, designed by our team of experienced engineers.'
-    }
+      title: 'ENGINEERING & CONSULTANCY',
+      description: 'Instrumentation & Electrical Datasheets and Specifications, Instrument Sizing Calculations, Junction Box & Cable Schedule. Instrument Loop & Hook Up Drawings, Cable Tray Layouts, Electrical Single Line Diagram.'
+    },
+
   ];
 
   const clients = [
     {
-      logo: 'https://images.pexels.com/photos/327540/pexels-photo-327540.jpeg?auto=compress&cs=tinysrgb&h=350',
-      name: 'Shell'
+      id: 1,
+      name: 'ABB Ltd.',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScIghZJCd7WFx6f3jIQ9A_eWu6tbJGoXzh-A&s'
     },
     {
-      logo: 'https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&h=350',
-      name: 'ExxonMobil'
+      id: 2,
+      name: 'GAIL Ltd.',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/GAIL.svg/1200px-GAIL.svg.png'
     },
     {
-      logo: 'https://images.pexels.com/photos/936137/pexels-photo-936137.jpeg?auto=compress&cs=tinysrgb&h=350',
-      name: 'BP'
+      id: 3,
+      name: 'Adani Group',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Adani_logo_2012.svg/1200px-Adani_logo_2012.svg.png'
     },
     {
-      logo: 'https://images.pexels.com/photos/7709020/pexels-photo-7709020.jpeg?auto=compress&cs=tinysrgb&h=350',
-      name: 'Chevron'
+      id: 4,
+      name: 'Indian Oil Corporation',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhaQg53BFHnnMqAdIVglqc8veBBFVCo6a7g&s'
+    },
+    {
+      id: 5,
+      name: 'ONGC India',
+      logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/ONGC_Logo.svg/1200px-ONGC_Logo.svg.png'
+    },
+    {
+      id: 6,
+      name: 'Hindustan Petroleum',
+      logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Hindustan_Petroleum_Logo.svg/1200px-Hindustan_Petroleum_Logo.svg.png'
+    },
+    {
+      id: 7,
+      name: 'Emerson Electric Co',
+      logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Emerson_Electric_Company.svg/1200px-Emerson_Electric_Company.svg.png'
+    },
+    {
+      id: 8,
+      name: 'Bridge & Roof Co. (I) Ltd.',
+      logo: 'https://www.bridgeroof.co.in/assets/images/BnR_logo_png.png'
+    },
+    {
+      id: 9,
+      name: 'Linde plc',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaYkpVk0GdhCyUF75LR0566wJ2IWSspuggSQ&s'
+    },
+    {
+      id: 10,
+      name: 'Petronet LNG',
+      logo: 'https://www.petronetlng.in/documents/699827/0/petronet-logo.png/7af6b59b-8521-05c0-8a52-70536cef807f?t=1716470155852'
+    },
+    {
+      id: 11,
+      name: 'Honeywell International, Inc.',
+      logo: 'https://mma.prnewswire.com/media/276137/honeywell_logo.jpg?p=facebook'
+    },
+    {
+      id: 12,
+      name: 'Gujarat State Pharmacy Council',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRs2I7q3pNQJsAgryefbf6_s1oqjBqRXBXSQ&s'
     }
   ];
 
@@ -54,7 +99,7 @@ const HomePage = () => {
       <Hero
         title="Advanced Solutions for the Oil & Gas Industry"
         subtitle="ABE Engineering delivers high-quality equipment, services, and solutions for the oil and gas industry worldwide."
-        backgroundImage="https://images.pexels.com/photos/2581087/pexels-photo-2581087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        backgroundImage="https://media.licdn.com/dms/image/v2/D4E12AQHJCl0A6d4DXA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1660896625599?e=2147483647&v=beta&t=vbItAQYNP59qnyXeNDTmzUostpkeTjv25jkRom11aoY"
         buttonText="Discover Our Services"
         buttonLink="/services"
       />
@@ -98,6 +143,9 @@ const HomePage = () => {
               />
             ))}
           </div>
+          <a href="services" className="service-link">
+            View More <FaArrowRight className="arrow-icon" />
+          </a> 
         </div>
       </section>
 
@@ -115,20 +163,24 @@ const HomePage = () => {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item" data-aos="fade-up" data-aos-delay="100">
-              <div className="stat-number">20+</div>
-              <div className="stat-label">Years of Experience</div>
+              <div className="stat-number">20+ YEARS</div>
+              <div className="stat-label">OF EXPERIENCE IN THE INDUSTRY</div>
             </div>
             <div className="stat-item" data-aos="fade-up" data-aos-delay="200">
-              <div className="stat-number">500+</div>
-              <div className="stat-label">Projects Completed</div>
+              <div className="stat-number">85+</div>
+              <div className="stat-label">CORPORATE CLIENTS</div>
             </div>
             <div className="stat-item" data-aos="fade-up" data-aos-delay="300">
-              <div className="stat-number">50+</div>
-              <div className="stat-label">Global Clients</div>
+              <div className="stat-number">12,000 SQ.FT</div>
+              <div className="stat-label">WORK SHOP FABRICTION AREA</div>
             </div>
             <div className="stat-item" data-aos="fade-up" data-aos-delay="400">
-              <div className="stat-number">100%</div>
-              <div className="stat-label">Client Satisfaction</div>
+              <div className="stat-number">24,000 SQ.FT</div>
+              <div className="stat-label">OPEN PLOT AREA</div>
+            </div>
+            <div className="stat-item" data-aos="fade-up" data-aos-delay="400">
+              <div className="stat-number">200+</div>
+              <div className="stat-label">DEDICATED AND HARDWORKING TEAM</div>
             </div>
           </div>
         </div>
@@ -140,15 +192,16 @@ const HomePage = () => {
             title="Our Clients" 
             subtitle="Trusted by industry leaders worldwide" 
           />
-          <div className="clients-grid grid-4">
-            {clients.map((client, index) => (
-              <ClientLogo
-                key={index}
-                logo={client.logo}
-                name={client.name}
-              />
+          <div className="clients-logo-grid">
+            {clients.map(client => (
+              <div key={client.id} className="clients-logo" title={client.name}>
+                <img src={client.logo} alt={client.name} />
+              </div>
             ))}
           </div>
+          <a href="clients" className="client-link">
+            View More <FaArrowRight className="arrow-icon" />
+          </a> 
         </div>
       </section>
     </>

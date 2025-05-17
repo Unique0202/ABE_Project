@@ -1,0 +1,80 @@
+.equipment-card {
+  background-color: var(--light-color);
+  border-radius: var(--border-radius-md);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.equipment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-image {
+  height: 240px;
+  overflow: hidden;
+}
+
+.equipment-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.equipment-card:hover .equipment-image img {
+  transform: scale(1.05);
+}
+
+.equipment-content {
+  padding: var(--spacing-2);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.equipment-name {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-1);
+  color: var(--primary-color);
+}
+
+.equipment-description {
+  color: var(--gray-700);
+  margin-bottom: var(--spacing-2);
+}
+
+.equipment-specifications {
+  margin-bottom: var(--spacing-2);
+}
+
+.equipment-specifications h4 {
+  font-size: 1rem;
+  margin-bottom: var(--spacing-1);
+  color: var(--gray-800);
+}
+
+.equipment-specifications ul {
+  list-style-position: inside;
+  color: var(--gray-600);
+}
+
+.equipment-specifications li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.equipment-btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .equipment-image {
+    height: 200px;
+  }
+}

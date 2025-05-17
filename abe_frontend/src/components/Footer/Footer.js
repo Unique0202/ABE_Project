@@ -16,7 +16,7 @@ const Footer = () => {
               A leading provider of equipment, services, and solutions for the oil and gas industry.
               With a focus on quality, safety, and excellence, we deliver innovative solutions for our clients.
             </p>
-            <div className="social-links">
+            {/* <div className="social-links">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <FaFacebook />
               </a>
@@ -29,7 +29,7 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-            </div>
+            </div> */}
           </div>
           
           <div className="footer-section links">
@@ -50,15 +50,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <FaMapMarkerAlt />
-                <span>123 Business Park, Industrial Area, City, Country</span>
+                <span>201/B, Silver Point Complex, Beside Hotel Express Lane, R.C. Dutt Road, Alkapuri, Vadodara-390005, Gujarat, India</span>
               </div>
               <div className="contact-item">
                 <FaPhone />
-                <span>+1 (234) 567-8900</span>
+                <span>+91 97277 24402, +91 90993 80009, +91 98243 40597, +91 70160 56362</span>
               </div>
               <div className="contact-item">
                 <FaEnvelope />
-                <span>info@abeengineering.com</span>
+                <span>abeeng01@gmail.com, contact@abeengineerspvtltd.com</span>
               </div>
             </div>
           </div>

@@ -1,0 +1,109 @@
+.equipment-filter {
+  margin-bottom: var(--spacing-4);
+}
+
+.equipment-search {
+  margin-bottom: var(--spacing-2);
+}
+
+.equipment-search input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--border-radius-md);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.equipment-search input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(12, 77, 162, 0.1);
+}
+
+.equipment-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: var(--spacing-2);
+}
+
+.category-btn {
+  padding: 8px 16px;
+  background-color: var(--gray-200);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  color: var(--gray-700);
+}
+
+.category-btn:hover {
+  background-color: var(--gray-300);
+}
+
+.category-btn.active {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.equipment-grid {
+  gap: var(--spacing-3);
+}
+
+.no-equipment-found {
+  text-align: center;
+  padding: var(--spacing-4) 0;
+}
+
+.no-equipment-found h3 {
+  color: var(--gray-700);
+  margin-bottom: var(--spacing-1);
+}
+
+.no-equipment-found p {
+  color: var(--gray-600);
+}
+
+.equipment-cta-section {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: var(--spacing-5) 0;
+  text-align: center;
+}
+
+.equipment-cta-content h2 {
+  color: var(--light-color);
+  margin-bottom: var(--spacing-2);
+  font-size: 2.2rem;
+}
+
+.equipment-cta-content p {
+  margin-bottom: var(--spacing-3);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .equipment-categories {
+    overflow-x: auto;
+    padding-bottom: var(--spacing-1);
+    flex-wrap: nowrap;
+  }
+  
+  .category-btn {
+    white-space: nowrap;
+  }
+  
+  .equipment-cta-content h2 {
+    font-size: 1.8rem;
+  }
+  
+  .equipment-cta-content p {
+    font-size: 1rem;
+  }
+}

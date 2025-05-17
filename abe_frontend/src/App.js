@@ -5,13 +5,13 @@ import 'aos/dist/aos.css';
 
 // Pages
 import HomePage from './pages/HomePage/HomePage';
-// import AboutPage from './pages/AboutPage/AboutPage';
-// import ServicesPage from './pages/ServicesPage/ServicesPage';
-// import EquipmentPage from './pages/EquipmentPage/EquipmentPage';
-// import CertificatesPage from './pages/CertificatesPage/CertificatesPage';
-// import ClientsPage from './pages/ClientsPage/ClientsPage';
-// import ContactPage from './pages/ContactPage/ContactPage';
-// import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import AboutPage from './pages/AboutPage/AboutPage';
+import ServicesPage from './pages/ServicesPage/ServicesPage';
+import EquipmentPage from './pages/EquipmentPage/EquipmentPage';
+import CertificatesPage from './pages/CertificatesPage/CertificatesPage';
+import ClientsPage from './pages/ClientsPage/ClientsPage';
+import ContactPage from './pages/ContactPage/ContactPage';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 
 // Components
 import Navbar from './components/Navbar/Navbar';
@@ -56,13 +56,13 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/equipment" element={<EquipmentPage />} />
           <Route path="/certificates" element={<CertificatesPage />} />
           <Route path="/clients" element={<ClientsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="*" element={<NotFoundPage />} /> */}
+          <Route path="/notFoundPage" element={<NotFoundPage />} /> 
         </Routes>
       </main>
       <Footer />

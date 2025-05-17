@@ -40,7 +40,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <span>ABE</span> Engineering
+          <span>ABE</span> ENGINEERS PVT. LTD.
         </Link>
 
         <div className="navbar-toggle" onClick={toggleMenu}>

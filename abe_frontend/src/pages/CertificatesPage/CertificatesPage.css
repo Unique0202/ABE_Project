@@ -1,0 +1,95 @@
+.certificates-intro {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-4);
+  text-align: center;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+.certificates-grid {
+  gap: var(--spacing-3);
+}
+
+.certificate-benefits-section {
+  background-color: var(--gray-100);
+}
+
+.benefits-grid {
+  gap: var(--spacing-3);
+}
+
+.benefit-item {
+  background-color: var(--light-color);
+  padding: var(--spacing-3);
+  border-radius: var(--border-radius-md);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.benefit-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 0;
+  background-color: var(--secondary-color);
+  transition: height 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item:hover::before {
+  height: 100%;
+}
+
+.benefit-item h3 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-1);
+  font-size: 1.25rem;
+}
+
+.benefit-item p {
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+.certificate-cta-section {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: var(--spacing-5) 0;
+}
+
+.certificate-cta-content h2 {
+  color: var(--light-color);
+  margin-bottom: var(--spacing-2);
+  font-size: 2.2rem;
+}
+
+.certificate-cta-content p {
+  margin-bottom: var(--spacing-3);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .benefit-item {
+    padding: var(--spacing-2);
+  }
+  
+  .certificate-cta-content h2 {
+    font-size: 1.8rem;
+  }
+  
+  .certificate-cta-content p {
+    font-size: 1rem;
+  }
+}

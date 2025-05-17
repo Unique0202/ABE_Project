@@ -9,9 +9,9 @@ const ServiceCard = ({ icon, title, description }) => {
       <div className="service-icon">{icon}</div>
       <h3 className="service-title">{title}</h3>
       <p className="service-description">{description}</p>
-      <a href="#" className="service-link">
+      {/* <a href="#" className="service-link">
         Learn More <FaArrowRight className="arrow-icon" />
-      </a>
+      </a> */}
     </div>
   );
 };
