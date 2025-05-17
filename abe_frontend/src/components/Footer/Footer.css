@@ -101,11 +101,11 @@
   color: var(--gray-500);
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .footer-content {
     grid-template-columns: repeat(2, 1fr);
   }
-} */
+}
 
 @media (min-width: 992px) {
   .footer-content {
